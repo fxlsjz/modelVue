@@ -1,12 +1,16 @@
 <template>
   <div class="product">
     产品<br />
+    <div style="padding: 30px 0;"></div>
     <el-radio-group v-model="radio2">
 	    <el-radio :label="3">备选项111</el-radio>
 	    <el-radio :label="6">备选项222</el-radio>
 	    <el-radio :label="9">备选项333</el-radio>
 	  </el-radio-group>
   	<div @click="tab()">点击</div>
+  	
+  	
+  	
   </div>
   
 </template>

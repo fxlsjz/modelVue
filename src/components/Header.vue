@@ -7,6 +7,22 @@
   		<li v-for="list in navlist">
   			<router-link :to="list.hrefs">{{list.texts}}</router-link>
   		</li>
+  		<!--<li>
+  			<router-link to="/">首页</router-link>
+  		</li>
+  		<li>
+  			<router-link to="/Product">产品</router-link>
+  		</li>
+  		<li>
+  			<router-link to="/Modules">模块</router-link>
+  		</li>
+  		<li>
+  			<router-link to="/Example">案例</router-link>
+  		</li>
+  		<li>
+  			<router-link to="/Joinus">加入我们</router-link>
+  		</li>-->
+
   	</ul>
    
   </div>
